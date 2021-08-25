@@ -40,7 +40,7 @@ data "aws_iam_policy_document" "policy-document" {
     ]
 
     resources = [
-      var.proxyArn
+      var.kmsArn
     ]
 
     condition {
