@@ -1,4 +1,4 @@
 variable "name" {}
 variable "service" {}
 variable "secretArn" {}
-variable "proxyArn" {}
+variable "kmsArn" {}
